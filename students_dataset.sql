@@ -29,7 +29,7 @@ order by marks desc;
 # marks<75 and marks>65 C
 # marks<65 and marks<55 D
 # rest F
-#7. count number of students of section A and b.
+#7. count number of students of section A .
 
 #solutions
 
@@ -83,7 +83,7 @@ case
 else "F"
 end as Grade from marksheet;
 
-#7. count number of students of section A and b.
+#7. count number of students of section A.
 
 select count(students_name) as count_of_students from marksheet
 where class_sec="12th_a";
